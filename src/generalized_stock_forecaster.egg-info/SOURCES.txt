@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/generalized_stock_forecaster.egg-info/PKG-INFO
+src/generalized_stock_forecaster.egg-info/SOURCES.txt
+src/generalized_stock_forecaster.egg-info/dependency_links.txt
+src/generalized_stock_forecaster.egg-info/requires.txt
+src/generalized_stock_forecaster.egg-info/top_level.txt
+src/stock_forecaster/__init__.py
+src/stock_forecaster/config.py
+src/stock_forecaster/data.py
+src/stock_forecaster/dataset.py
+src/stock_forecaster/features.py
+src/stock_forecaster/model.py
+src/stock_forecaster/predict.py
+src/stock_forecaster/py.typed
+src/stock_forecaster/train.py

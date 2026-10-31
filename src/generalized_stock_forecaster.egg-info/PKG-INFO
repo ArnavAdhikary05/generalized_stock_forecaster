@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: generalized-stock-forecaster
+Version: 0.1.0
+Summary: A research starter for generalized multi-stock next-candle forecasting
+Requires-Python: >=3.10
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: pandas>=2.1.0
+Requires-Dist: yfinance>=0.2.54
+Requires-Dist: tqdm>=4.66.0

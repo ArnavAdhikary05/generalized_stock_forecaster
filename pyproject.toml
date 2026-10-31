@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generalized-stock-forecaster"
+version = "0.1.0"
+description = "A research starter for generalized multi-stock next-candle forecasting"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26.0",
+  "pandas>=2.1.0",
+  "yfinance>=0.2.54",
+  "tqdm>=4.66.0",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
